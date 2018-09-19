@@ -1,10 +1,10 @@
-from multiprocessing import Process
+from multiprocessing import Process,current_process
 import os
 def info(title):
     print(title)
     print("module name: ",__name__)
     print("父进程ID",os.getppid())
-    print("子进程ID",os.getpid())
+    print("子进程ID",os.getpid(),current_process().name)
 
 def f(name):
     info("function f")
