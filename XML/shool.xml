@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<School name="NJUST" loc="孝陵卫200号">
+    <Student class="materious of engineering">
+        <name>xiaoming</name>
+        <age>15</age>
+    </Student>
+
+    <Student>
+        <name> <!-- 学生姓名 --> xiaoli</name>
+        <age>age>18<!-- 年龄--></age>
+    </Student>
+
+    <Student>
+        <name>xiaohu</name>
+        <age>17</age>
+    </Student>
+
+</School>
