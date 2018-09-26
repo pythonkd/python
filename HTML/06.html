@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal data</title>
+</head>
+<body>
+<form action="" method="post" enctype="multipart/form-data">
+    学号：<input type="text" name="Student ID" placeholder="请输入学号">
+    <br>
+    密码：<input type="password" name="password" placeholder="请输入密码">
+    <br>
+    性别：<input type="radio" name="gender" value="0" checked>男
+    <input type="radio" name="gender" value="1">女 <br>
+    爱好：<br>
+    <input type="checkbox" name="habbit[]" value="0" >篮球 <br>
+    <input type="checkbox" name="habbit[]" value="1">足球 <br>
+    <input type="checkbox" name="habbit[]" value="2">乒乓球 <br>
+    <input type="checkbox" name="habbit[]" value="3">其他 <br>
+    专业：
+    <select name="profession" id="">
+        <option value="0">材料物理化学</option>
+        <option value="1">材料学</option>
+        <option value="2">材料工程</option>
+    </select>
+    个人照片：请选择文件上传 <input type="file" name="personal picture"><br>
+    个人信息说明：<br>
+    <textarea name="text" id="" cols="30"  rows="10" placeholder="请输入需要额外添加的信息"></textarea>
+    <br>
+    <input type="submit" value="确定"><br>
+    <button>提交</button>
+    <br>
+    <input type="reset" value="重置">
+    <input type="hidden" name="id" value="0">
+
+
+
+
+</form>
+
+</body>
+
+</html>
