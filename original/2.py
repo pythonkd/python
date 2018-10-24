@@ -8,4 +8,5 @@ def add_b():
     do_global()
     print(b)
 add_b()
+
 print(b)
