@@ -19,4 +19,3 @@ if __name__ == '__main__':
     bingo = BingoCage(range(10))
     callable(bingo)
     print(bingo(), bingo.pick())
-    
