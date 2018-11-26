@@ -21,5 +21,6 @@ def test_array():
     assert a[0] == 1
     a.clear()
     assert a[0] is None
+    print("test successful")
 if __name__ == "__main__":
     test_array()
