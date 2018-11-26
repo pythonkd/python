@@ -17,7 +17,7 @@ class Array:
 class FullError(Exception):
     pass
 class ArrayQueue:
-    '''定长的队列，当队列满了之后再添加元素，会覆盖掉最后添加的一个元素。'''
+    '''定长的队列，当队列满了之后再添加元素，会覆盖掉第一个添加的一个元素,从头开始添加。'''
     def __init__(self, maxsize):
         self.maxsize = maxsize
         self.array = Array(maxsize)
