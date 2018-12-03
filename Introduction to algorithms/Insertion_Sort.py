@@ -1,4 +1,4 @@
-import random
+import random, time
 class InsertionSort(object):
     def __init__(self, nums):
         self.nums = nums
@@ -22,9 +22,9 @@ class InsertionSort(object):
         return a
 
 if __name__ == '__main__':
-    x = [i for i in range(200)]
+    start = time.time()
+    x = [i for i in range(15000)]
     random.shuffle(x)
-    print(x)
-    print('*'*20)
-    s = InsertionSort(x)
-    print(s.sort())
+    s = InsertionSort(x).sort()
+    end = time.time()
+    print(end - start)
